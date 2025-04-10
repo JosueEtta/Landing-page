@@ -1,0 +1,170 @@
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf");
+}
+:root{
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    margin: 0;
+}
+nav{
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color:#1f2937;
+    height:50px;
+    min-width: 850px;
+    padding-top: 20px;
+}
+#header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+    border-style: none;
+}
+nav div{
+    text-align: center;
+    width: 50%;
+}
+#links a{
+    margin-left: 20px;
+    font-size: 16px;
+    color:#e5e7eb;
+    text-decoration: none;
+}
+#links a:hover{
+    color:rgb(63, 96, 244);
+}
+header{
+    margin-top:0;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    min-width: 850px;
+    background-color:#1f2937 ;
+}
+#hero-title{
+    font-size:48px;
+    color:#f9faf8;
+    font-weight: 600;
+}
+#header-text{
+    width: 40%;
+}
+#header-paragragh{
+    width: 80%;
+    font-size: 16px;
+    color:#e5e7eb
+}
+#header-image{
+    background-image: url("assets/images/network-5987786_640.jpg");
+    background-size: cover;
+    height:200px;
+    width: 500px;
+    height:250px;
+}
+button{
+    width: 100px;
+    padding: 10px;
+    border-radius:10px;
+    font-size: 16px;
+    background-color:rgb(63, 96, 244);
+    border-style: none;
+    color: #e5e7eb;
+}
+#image-section{
+    min-width: 850px;
+}
+#section1-paragragh{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color:#1f2937;
+}
+#image-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap:10px;
+}
+.content{
+    width:200px;
+}
+.content p{
+    text-align: center;
+    color: gray ;
+}
+.image-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height:150px;
+    border-radius: 10px;
+}
+.image-div img{
+    width: 100px;
+    height: 100px;
+}
+#paragraph-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:300px;
+    min-width: 850px;
+    background-color:#1f2937;
+}
+#paragrapgh-first{
+    font-size:22px;
+    width:50%;
+    color:#e5e7eb;
+} 
+#paragraph-second{
+   font-size:16px;
+   color:rgb(63, 96, 244);
+   width: 50%;
+   text-align: right;
+}
+#section-signup{
+    min-width: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+#signup-main{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 70%;
+    gap:150px;
+    color: #e5e7eb;
+    border-radius: 10px;
+    background-color:rgb(63, 96, 244);
+}
+#signup-main button{
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height:2px;
+    border-style: solid;
+    border-color: #e5e7eb;
+    height:35px;
+    width: 120px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 850px;
+    background-color: #1f2937;
+    height: 50px;
+}
+footer p{
+    text-align: center;
+    color: #e5e7eb;
+}
